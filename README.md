@@ -4,7 +4,7 @@ Dockerized Rocky Linux with 'Development tools' packages installed.
 
 ## Building Docker Images via CI/CD
 
-To build the Rocky 8 Docker image:
+To build the Rocky 9 Docker image:
 ```
   git checkout master
   ... make edits ...
@@ -14,8 +14,8 @@ To build the Rocky 8 Docker image:
 
 To build the Rocky Linux-tagged Docker image:
 ```
-  git checkout 8
+  git checkout el9
   ... make edits ...
   git commit -am 'message'
-  git push origin 8
+  git push origin el9
 ```
